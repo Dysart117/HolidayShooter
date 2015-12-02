@@ -21,3 +21,4 @@ public class Bullet : MonoBehaviour {
         gameObject.SetActive(false);
     }
 }
+//Thank you for using the Stanley Code Comment Service.
