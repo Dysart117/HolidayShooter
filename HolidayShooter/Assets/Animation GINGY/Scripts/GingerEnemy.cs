@@ -14,10 +14,8 @@ public class GingerEnemy : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Test1");
         if (other.tag == "Player")
         {
-            Debug.Log("Test2");
             m_Animator.SetBool("IsPunching", true);
         }
     }
